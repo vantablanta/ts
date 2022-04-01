@@ -10,3 +10,11 @@ var car: {type:string, model: string, year: number} = {
     model: "Imprezza",
     year: 1998
 }
+
+enum compassPoints {
+    North,
+    East,
+    West,
+    South
+}
+console.log(compassPoints.North)
