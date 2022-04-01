@@ -4,3 +4,9 @@ console.log(firstName);
 
 var myTuple: [string, number, boolean] = ["Michelle", 25, true]
 console.log(myTuple)
+
+var car: {type:string, model: string, year: number} = {
+    type: "Subaru",
+    model: "Imprezza",
+    year: 1998
+}
